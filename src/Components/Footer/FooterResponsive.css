@@ -1,0 +1,34 @@
+@media (max-width:1024px){
+.form h3{
+    font-size: 1.5rem;
+}
+}
+@media (max-width:425px){
+    .form h3{
+        font-size: 1rem;
+    }
+    .form h4{
+        font-size: 1rem;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+}
+@media (max-width:375px){
+    .form input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .form input[type="submit"]{
+        margin-left: 0px;   
+    }
+}

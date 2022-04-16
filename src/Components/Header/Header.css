@@ -1,0 +1,77 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1b181a;
+    min-height: 80px;
+}
+.logo a h1{
+ color: white;
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    margin-right: 20px;
+}
+#active{
+    border: 1px solid white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: 200ms;
+}
+.menu{
+    height: 2px;
+    width: 40px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.menu-toggle{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+
+}
+.menu-mobile{
+    display: none;
+}
+
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b181a;
+    height: 100vh;
+    width: 100%; 
+    position: absolute;
+    top: 100px; 
+    left: 0;
+    border-top: 1px solid white;
+    animation: up forwards 1s;
+    overflow-x: hidden;
+}
+.nav-mobile a{
+    font-size: 2.3rem;
+    line-height: 100px;
+    
+}
+@keyframes up{
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+
+    }
+    100% {
+    opacity: 1;
+    transform: translateX(0);
+    
+    }
+}

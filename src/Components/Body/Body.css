@@ -1,0 +1,134 @@
+.hero{
+    background: url(/public/images/img\ home\ 2.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    line-height:80px;
+    color: white;
+    text-shadow: 5px 20px 5px rgba(0, 0, 0, 0.308);
+}
+
+.txt1 h2{
+    font-size: 6rem;
+}
+.txt1 h3{
+    font-size: 2rem;
+}
+.button{
+    padding: 15px;
+    border: 1px solid white;
+    background:none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.589);
+}
+#btn-active{
+    background-color: #1b181a;
+    border: 1px solid #1b181a;
+}
+.button p{
+    font-size: 1.2rem;
+}
+
+/* MAIN, SECTION TRIPS */
+.cards-imgs{
+    perspective: 500px;
+}
+.cards{
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.cards h2{
+    margin-top: 50px;
+}
+.first-trips{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.cards h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.cards-1 img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;   
+}
+.cards-1{
+    box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.253);
+    max-width: 500px;
+    min-height: 400px;
+    border-radius: 8px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    cursor: pointer;
+}
+.cards-1:hover{
+    transform: translateZ(10px) rotateX(20deg) rotateY(5deg);
+    
+}
+.cards-1 p{
+    font-weight: bold;
+    text-align:center;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.label{
+    background-color: royalblue;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 105px;
+    left: 50px;
+}
+.third-trip{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    perspective: 500px;
+}
+.cards-2 img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.cards-2{
+    box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 8px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    cursor: pointer;
+    cursor: pointer;
+}
+.cards-2:hover{
+    transform: translateZ(5px) rotateX(2deg);
+    
+}
+.cards-2 p{
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+}
+.label2{
+    background-color: royalblue;
+    color: white;
+    padding: 5px;
+    bottom: 0px;
+    left: 50px;
+    border-radius: 8px;
+}
